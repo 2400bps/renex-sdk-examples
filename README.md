@@ -21,8 +21,11 @@ Create a `.env` file in the root of the folder with the following contents:
 
 ```bash
 export INFURA_KEY="your infura api key";
+export MNEMONIC="your mnemonic seed phrase";
 export PRIVATE_KEY="your wallet private key";
 ```
+
+Running the examples will require `MNEMONIC` and/or `PRIVATE_KEY` to be defined in the environment variables.
 
 ## Running the examples
 
