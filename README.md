@@ -26,3 +26,10 @@ npm run ex1
 ```
 
 This will run example 1. `ex0` will run example 0 etc.
+
+## List of Examples
+
+0. [Setting up a provider using a mnemonic seed](0_setup_provider_with_mnemonic.js)
+1. [Setting up a provider using a private key](1_setup_provider_with_private_key.js)
+2. [Getting the account balances](2_get_balances.js)
+
