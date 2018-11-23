@@ -15,17 +15,22 @@ const RpcSubprovider = require('web3-provider-engine/subproviders/rpc');
 const privateKey = process.env.PRIVATE_KEY;
 const ethjswallet = Wallet.fromPrivateKey(Buffer.from(privateKey, "hex"));
 
-// Setup the provider engine to talk to Infura
-const infuraUrl = `https://kovan.infura.io/${process.env.INFURA_KEY}`;
+// Setup the providerEngine
+// This can be passed in as a provider when instantiating RenExSDK
+// i.e. var sdk = new RenExSDK(providerEngine);
 const providerEngine = new ProviderEngine();
 providerEngine.addProvider(new WalletSubprovider(ethjswallet));
 providerEngine.addProvider(new RpcSubprovider({
-    rpcUrl: infuraUrl,
+    rpcUrl: `https://kovan.infura.io/${process.env.INFURA_KEY}`,
 }));
+// Start the engine manually since it does not start automatically
+providerEngine.start();
 
 if (require.main === module) {
     console.log(`Provider was set up with public address: ${ethjswallet.getAddress().toString("hex")}`);
+    // Stop the provider engine when we're done with the provider
+    providerEngine.stop();
 }
 
-// Export the engine so other demos can use it
+// Export the providerEngine so other demos can use it
 module.exports = providerEngine;
