@@ -1,5 +1,5 @@
 /**
- * Example 0: Setting up a provider with a raw Private Key.
+ * Example 1: Setting up a provider with a raw Private Key.
  * 
  * This will set up a provider with a private key.
  * The provider can be used to setup the RenExSDK.

@@ -1,5 +1,5 @@
 /**
- * Example 1: Getting the balances from private key account
+ * Example 2: Getting the balances
  * 
  * This will set up a RenExSDK instance and get the balances.
  */

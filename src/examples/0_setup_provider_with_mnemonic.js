@@ -1,5 +1,5 @@
 /**
- * Example 2: Setting up a provider with a mnemonic seed phrase.
+ * Example 0: Setting up a provider with a mnemonic seed phrase.
  * 
  * This will set up a provider with a mnemonic seed phrase
  * The provider can be used to setup the RenExSDK.
