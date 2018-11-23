@@ -1,4 +1,4 @@
-# Examples for RenExSDK
+# Examples for RenEx SDK
 
 ## Setup
 
