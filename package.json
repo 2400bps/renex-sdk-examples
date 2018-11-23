@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "ex0": "source .env; node examples/0_setup_provider_with_private_key.js",
-    "ex1": "source .env; node examples/1_get_balances_with_private_key.js"
+    "ex0": "source .env; node src/examples/0_setup_provider_with_private_key.js",
+    "ex1": "source .env; node src/examples/1_get_balances_with_private_key.js"
   },
   "author": "",
   "license": "ISC",
