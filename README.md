@@ -22,10 +22,10 @@ export PRIVATE_KEY="your wallet private key";
 Use the following format to run the examples:
 
 ```bash
-npm run ex1
+npm run ex0
 ```
 
-This will run example 1. `ex0` will run example 0 etc.
+This will run example 0. `ex1` will run example 1, `ex2` will run example 2, etc.
 
 ## List of Examples
 
