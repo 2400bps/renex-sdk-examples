@@ -1,5 +1,12 @@
 # Examples for RenEx SDK
 
+## List of Examples
+
+0. [Setting up a provider using a mnemonic seed](src/examples/0_setup_provider_with_mnemonic.js)
+1. [Setting up a provider using a private key](src/examples/1_setup_provider_with_private_key.js)
+2. [Getting the account balances](src/examples/2_get_balances.js)
+
+
 ## Setup
 
 Clone the repo and install dependencies.
@@ -26,10 +33,3 @@ npm run ex0
 ```
 
 This will run example 0. `ex1` will run example 1, `ex2` will run example 2, etc.
-
-## List of Examples
-
-0. [Setting up a provider using a mnemonic seed](src/examples/0_setup_provider_with_mnemonic.js)
-1. [Setting up a provider using a private key](src/examples/1_setup_provider_with_private_key.js)
-2. [Getting the account balances](src/examples/2_get_balances.js)
-
