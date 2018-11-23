@@ -32,4 +32,6 @@ async function main() {
     provider.engine.stop();
 }
 
-main();
+main().catch(function (err) {
+    console.error(err);
+});
