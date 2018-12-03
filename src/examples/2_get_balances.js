@@ -14,7 +14,7 @@ const provider = require("./0_setup_provider_with_mnemonic");
 async function main() {
     // Pass in the provider object to RenExSDK
     // If using the providerEngine from Example 1, pass the providerEngine to RenExSDK instead
-    var sdk = new RenExSDK(provider, { network: "testnet", autoNormalizeOrders: true, storageProvider: "memory" });
+    var sdk = new RenExSDK(provider, { network: "testnet", autoNormalizeOrders: true });
     var web3 = new Web3(provider);
     var accounts = await web3.eth.getAccounts();
     // Set the account to use with the RenEx SDK
