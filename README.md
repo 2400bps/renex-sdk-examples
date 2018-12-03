@@ -12,8 +12,8 @@
 Clone the repo and install dependencies.
 
 ```bash
-git clone https://github.com/republicprotocol/renex-sdk-examples-js
-cd renex-sdk-examples-js
+git clone https://github.com/republicprotocol/renex-sdk-examples
+cd renex-sdk-examples
 npm install
 ```
 
